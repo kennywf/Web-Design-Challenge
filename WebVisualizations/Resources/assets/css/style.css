@@ -1,36 +1,55 @@
 /*Body*/
 body{
-background-color: rgb(238, 235, 235);
+    background-color: rgb(238, 235, 235);
 }
 
 /*Words*/
 h1{  
-font-size: 32px;
-font-weight: bold;
-color: rgb(32, 175, 168) 
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(32, 175, 168) 
 }
 
 h2{
-font-size: 26px;
-font-weight: bold;
-color: rgb(32, 175, 168) 
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(32, 175, 168) 
 }
 
 h3{
-font-size: 18px;
-font-weight: bold;
-color: rgb(32, 175, 168) 
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(32, 175, 168) 
 }
 
 /*Navbar*/
 .navbar-brand{
-  background-color: rgb(32, 175, 168);
-  font-weight: bold;
-  text-align: center;
-  padding: 11px
+    background-color: rgb(32, 175, 168);
+    font-weight: bold;
+    text-align: center;
+    padding: 11px
 }
 
+.navbar{
+    background-color: white !important;
+}
+
+#main_img{
+    height:50%;
+    width:50%
+}
 /*Container*/
 .container{
-    background-color:white
+    background-color:white;
+}
+
+/*Media query*/
+@media(max-width: 992px) {
+.navbar{
+    background-color: rgb(32, 175, 168) !important;
+}
+
+#navbarDropdown{
+    background-color:rgb(238, 235, 235);
+    }
 }
