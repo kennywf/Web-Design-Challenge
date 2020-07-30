@@ -1,0 +1,36 @@
+/*Body*/
+body{
+background-color: rgb(238, 235, 235);
+}
+
+/*Words*/
+h1{  
+font-size: 32px;
+font-weight: bold;
+color: rgb(32, 175, 168) 
+}
+
+h2{
+font-size: 26px;
+font-weight: bold;
+color: rgb(32, 175, 168) 
+}
+
+h3{
+font-size: 18px;
+font-weight: bold;
+color: rgb(32, 175, 168) 
+}
+
+/*Navbar*/
+.navbar-brand{
+  background-color: rgb(32, 175, 168);
+  font-weight: bold;
+  text-align: center;
+  padding: 11px
+}
+
+/*Container*/
+.container{
+    background-color:white
+}
