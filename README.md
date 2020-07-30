@@ -15,11 +15,8 @@ Links to each visualizations page. There should be a sidebar containing preview 
 
 
 Four visualization pages, each with:
-
 A descriptive title and heading tag.
-
 The plot/visualization itself for the selected comparison.
-
 A paragraph describing the plot and its significance.
 
 
